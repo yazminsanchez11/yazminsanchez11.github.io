@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: #B29476;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+#logo {
+    width: 60%;
+    height: 100%;
+}
+
+.enlace {
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 22%;
+}
+
+header ul li {
+    margin-left: 10px;
+    margin-top: 45px;
+    margin-right: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Joan", sans-serif;
+}
+
+body h1 {
+    color: #5F6F52;
+    margin-top: 50px;
+    margin-left: 5%;
+    font-family: "Joan", sans-serif;
+    text-align: center;
+}
+
+.cuerpo {
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-family: "Joan", sans-serif;
+}
+
+.filosofia {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    text-align: center;
+}
+
+section div {
+    background-color: #B99470;
+    width: 25%;
+    padding: 20px;
+    margin-right: 3px;
+}
+
+section div:hover {
+    background-color: #5F6F52;
+    width: 25%;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: "Joan", sans-serif;
+    margin-top: 10px;
+}
+
+section div p {
+    color: black;
+    font-family: "Joan", sans-serif;
+    text-align: center;
+}
+
+body h3 {
+    color: #5F6F52;
+    margin-top: 50px;
+    margin-left: 5%;
+    font-family: "Joan", sans-serif;
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    align-items: center;
+}
+
+#menu image {
+    margin-top: 10px;
+    width: 30%;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#mapa{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+#mapa div{
+    justify-items: center;
+}
+#mapa p {
+    font-family:"Joan", sans-serif;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(5, 53, 5);
+    width: 100%;
+    margin-top: 45px;
+}
+
+footer h4 {
+    text-align: center;
+    color: white;
+    font-family: "Joan", sans-serif;
+    padding: 25px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-family: "Joan", sans-serif;
+    margin-top: 0;
+}
+
+#boton {
+    margin-left: 40%;
+    background-color: #B29476;
+    border: #B29476;
+    height: 50px;
+    width: 340px;
+    color: white;
+    font-family: "Joan", sans-serif;
+    margin-bottom: 25px;
+}
